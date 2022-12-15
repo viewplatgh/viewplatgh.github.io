@@ -278,12 +278,11 @@ div.container[role='main'] {
 }
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding: 1em 0;
   border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
   border-bottom: none;
 }
 
