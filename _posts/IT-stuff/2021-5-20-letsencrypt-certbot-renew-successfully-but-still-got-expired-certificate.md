@@ -7,20 +7,20 @@ tag: it-stuff
 This article is just a trouble-shooting blog.
 It's rarely happen. After you even did a force renew by using
 
-```sh
+```console
 sudo certbot renew --force-renewal
 ```
 
 And then check the certificate by using
 
-```sh
+```console
 sudo certbot certificates
 ```
 
 Everything looks just fine.
 But when you use curl or wget from a remote machine to test the website, you still get the error of expired certificate. This can be frustrating.
 
-```sh
+```console
 wget -O test.html https://yourwebsite.com
 
 Resolving yourwebsite.com (yourwebsite.com)... xx.xx.xx.xx
@@ -32,7 +32,7 @@ To connect to yourwebsite.com insecurely, use `--no-check-certificate'.
 
 However, don't worry. The solution is simple. Simply restart the nginx server can save it.
 
-```sh
+```console
 sudo systemctl restart nginx
 ```
 
