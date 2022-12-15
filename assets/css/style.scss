@@ -7,6 +7,7 @@
 
 @import 'reset';
 @import 'variables';
+@import 'default_colors';
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -232,9 +233,7 @@ nav {
   font-size: 18px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-end;
   align-items: center;
-  gap: 1.2rem;
   text-transform: uppercase;
 
   @include mobile {
@@ -256,9 +255,27 @@ nav {
   }
 }
 
+nav {
+  div.navin {
+    flex-grow: 1;
+  }
+  div.navin,
+  div.navout {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+  }
+}
+
 //
 // .main
 //
+
+div.container[role='main'] {
+  min-height: 50vh;
+}
 
 .posts > .post {
   padding-bottom: 2em;
@@ -291,10 +308,7 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  margin-top: 20px;
 }
 
 footer {
