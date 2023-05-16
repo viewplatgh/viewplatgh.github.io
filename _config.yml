@@ -13,6 +13,10 @@ description: 'just by a software engineer'
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar:
 
+paginate: 5
+
+paginate_path: '/page:num/'
+
 #
 # Flags below are optional
 #
@@ -77,6 +81,7 @@ sass:
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
