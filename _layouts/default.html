@@ -1,48 +1,42 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+---
+---
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
-    <link rel="stylesheet" href="{{ site.baseurl | append: '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
 
-  <body>
-    <header>
-      <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
 
-        <nav>
-          <div class="navin">
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/IT-stuff">IT stuff</a>
-            <a href="{{ site.baseurl }}/my-feeds">My feeds</a>
-          </div>
-          <div class="navout">
-          {% include svg-icons.html %}
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <div id="main" role="main" class="container">
+    <div class="initial-content">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          Copyright © 2021－{{ site.time | date: "%Y" }} roblao.com
-        </footer>
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
       </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
     </div>
 
-    {% include analytics.html %}
+    {% include scripts.html %}
+
   </body>
 </html>
