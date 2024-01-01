@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Three ways of defining a generic function type using typescripts
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - typescript
 ---
 
 If to pass a variable which is a function, and also the type of that function need to be a generic one, it's useful to define a generic function type when using typescript.

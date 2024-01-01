@@ -1,7 +1,11 @@
 ---
 layout: post
 title: A cryptocurrency capital gain tax calculator written in Python by me
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - cgt
+  - crypto
 ---
 
 In 2019, I spent about a month to write this Python cryptocurrency capital gain tax calculator.

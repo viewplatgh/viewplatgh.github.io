@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Html input checkbox using e.target.checked
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - javascript
 ---
 
 `e.target.value` could look familiar by almost all experienced web developers. That's commonly seen in the input text box event handler in reactjs code, .e.g onChange.

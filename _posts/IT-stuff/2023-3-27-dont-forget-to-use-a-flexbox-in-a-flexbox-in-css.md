@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Don't forget to use a flexbox in a flexbox in CSS
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - css
+  - flexbox
 ---
 
 Millions tutorials online of CSS flexbox is about one pattern: parent `dispay: flex;` + one level children. However, in practice, flexbox is used in nested pattern more often than not. That is grandparent `display: flex;` + parent `display: flex;` + grandchildren. It's very useful to know that you don't have to use flexbox in only one level.

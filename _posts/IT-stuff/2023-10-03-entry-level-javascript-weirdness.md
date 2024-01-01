@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Entry level Javascript weirdness
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - javascript
 ---
 
 Javascript is weird when compared to other popular programming languages. If you search it on the Internet, there’re a lot of articles talking about the weirdness of Javascript. For example: https://github.com/denysdovhan/wtfjs and https://jsisweird.com/

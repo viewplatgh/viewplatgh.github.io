@@ -1,7 +1,11 @@
 ---
 layout: post
 title: CSS justify-* align-* two things to remember at first
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - css
+  - flexbox
 ---
 
 CSS justify-\* align-\* basically includes: `justify-content`, `justify-item`, `justify-self`, `align-content`, `align-item` and `alignt-self`

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: From bash to zsh, very basic things need to do
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - zsh
 ---
 
 After upgrading MacOS to Catalina, everytime opening a terminal, there would be a prompt saying:

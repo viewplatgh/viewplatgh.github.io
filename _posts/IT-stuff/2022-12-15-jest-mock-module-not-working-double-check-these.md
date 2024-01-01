@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Jest mock module not working? double check these
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - jest
 ---
 
 Jest mock module feature can be used for mocking whole or part of packages in your project. Check out: [https://jestjs.io/docs/manual-mocks](https://jestjs.io/docs/manual-mocks)

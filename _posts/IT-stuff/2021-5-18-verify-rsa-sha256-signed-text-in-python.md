@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Verify rsa sha256 signed text in Python
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - rsa
+  - cipher
 ---
 
 I created a gist to keep a basic implementation, in Python. Here it is: https://gist.github.com/viewplatgh/cb690159e8ee028cb4c9483cb127e6c3

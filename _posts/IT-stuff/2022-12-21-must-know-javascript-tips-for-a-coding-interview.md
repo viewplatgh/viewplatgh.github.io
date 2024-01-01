@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Must know Javascript tips for a coding interview
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - javascript
 ---
 
 1. Generate an array

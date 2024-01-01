@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Two vanillajs frontend coding tutorials my code snippets
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - youtube
 ---
 
 Here is the two videos:

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Three ways to define and use a Map in Typescript
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - typescript
 ---
 
 I am not sure how many ways exactly to use a Map in Typescript. Just to list three here I believe are most commonly seen.

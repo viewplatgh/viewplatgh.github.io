@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Using github actions for my blog from now on
-tag: it-stuff
+categories:
+  - it-stuff
+tags:
+  - github
 ---
 
 Github actions looks cool. I can't wait for using it even if it's still in 'beta' at the moment.
