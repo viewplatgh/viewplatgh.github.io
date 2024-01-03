@@ -1,5 +1,4 @@
 ---
-layout: post
 title: From bash to zsh, very basic things need to do
 categories:
   - it-stuff

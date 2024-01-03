@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Three ways to define and use a Map in Typescript
 categories:
   - it-stuff

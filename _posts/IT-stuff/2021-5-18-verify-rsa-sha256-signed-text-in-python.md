@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Verify rsa sha256 signed text in Python
 categories:
   - it-stuff

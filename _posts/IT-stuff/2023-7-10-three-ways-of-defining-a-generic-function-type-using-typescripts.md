@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Three ways of defining a generic function type using typescripts
 categories:
   - it-stuff

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Two vanillajs frontend coding tutorials my code snippets
 categories:
   - it-stuff

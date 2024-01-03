@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jest mock module not working? double check these
 categories:
   - it-stuff

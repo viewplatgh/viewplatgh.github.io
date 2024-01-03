@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Thanks to Github Pages + Jekyll, roblao.com up and running much more reliably
 categories:
   - my-feeds

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Entry level Javascript weirdness
 categories:
   - it-stuff

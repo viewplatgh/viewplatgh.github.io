@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Must know Javascript tips for a coding interview
 categories:
   - it-stuff

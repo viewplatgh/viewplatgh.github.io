@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Html input checkbox using e.target.checked
 categories:
   - it-stuff

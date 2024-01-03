@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Don't forget to use a flexbox in a flexbox in CSS
 categories:
   - it-stuff

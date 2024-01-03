@@ -1,5 +1,4 @@
 ---
-layout: post
 title: CSS justify-* align-* two things to remember at first
 categories:
   - it-stuff

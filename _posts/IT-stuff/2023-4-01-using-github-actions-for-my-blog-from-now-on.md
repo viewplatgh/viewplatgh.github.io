@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Using github actions for my blog from now on
 categories:
   - it-stuff

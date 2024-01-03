@@ -1,5 +1,4 @@
 ---
-layout: post
 title: LetsEncrypt Certbot renew successfully, but still got expired certificate from client(browser, curl or wget) side, what's the problem?
 categories:
   - it-stuff

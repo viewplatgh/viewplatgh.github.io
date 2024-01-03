@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A cryptocurrency capital gain tax calculator written in Python by me
 categories:
   - it-stuff
