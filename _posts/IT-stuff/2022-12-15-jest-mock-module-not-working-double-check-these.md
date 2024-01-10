@@ -6,7 +6,7 @@ tags:
   - jest
 ---
 
-Jest mock module feature can be used for mocking whole or part of packages in your project. Check out: [https://jestjs.io/docs/manual-mocks](https://jestjs.io/docs/manual-mocks)
+Jest mock module feature can be used for mocking whole or part of packages in your project. Check out: <https://jestjs.io/docs/manual-mocks>
 
 If you try `jest.mock('my-package')` first time, it may not work, and it just used the actual package without giving a hint of what's wrong.
 

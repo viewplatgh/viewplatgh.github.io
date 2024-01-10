@@ -26,4 +26,4 @@ Here is the steps to migrate classic Jekyll gh-pages to github actions:
 
 4. Merge my previous `gh-pages` branch, which is `roblao.com` back to `master` which is used for deployment in my .yml file
 
-BTW, I found I can view roblao.com deployment history here: https://github.com/viewplatgh/viewplatgh.github.io/deployments
+BTW, I found I can view roblao.com deployment history here: <https://github.com/viewplatgh/viewplatgh.github.io/deployments>

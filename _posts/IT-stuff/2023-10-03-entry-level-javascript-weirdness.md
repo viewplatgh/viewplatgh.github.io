@@ -6,7 +6,7 @@ tags:
   - javascript
 ---
 
-Javascript is weird when compared to other popular programming languages. If you search it on the Internet, there’re a lot of articles talking about the weirdness of Javascript. For example: https://github.com/denysdovhan/wtfjs and https://jsisweird.com/
+Javascript is weird when compared to other popular programming languages. If you search it on the Internet, there’re a lot of articles talking about the weirdness of Javascript. For example: <https://github.com/denysdovhan/wtfjs> and <https://jsisweird.com/>
 
 Here are something make me feel Javascript is a quite special programming language:
 
