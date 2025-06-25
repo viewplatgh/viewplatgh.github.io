@@ -39,15 +39,15 @@ Please note one of properties of `User`: `name` is not nullable. The spread oper
 How to solve the error?
 There're a few ways.
 
-1. remove the nullable element
+- 1: remove the nullable element
 
 As the element of array is nullable, spread operation will create an intermediate type of which every property is nullable. Yes, that makes sense. Properties of a nullable value of course should still be nullable. So one simple way to fix the error is just to make the element of array not nullable: `type UserArray = Array<User>`
 
-2. Make all User's properties nullable
+- 2: Make all User's properties nullable
 
 Either change the name property of `User` to be nullable `name?: string`, or use `Partial`: `type UserArray = Array<Partial<User> | null>`
 
-3. Add null checking at runtime
+- 3: Add null checking at runtime
 
 ```
   return users.map((user) =>
@@ -55,7 +55,7 @@ Either change the name property of `User` to be nullable `name?: string`, or use
   )
 ```
 
-4. `as` operator helps as well, but it's not recommended due to lack of type-safe
+- 4: `as` operator helps as well, but it's not recommended due to lack of type-safe
 
 ```
   return users.map(
