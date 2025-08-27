@@ -33,9 +33,9 @@ ary[0] === ary[[[0]]] // true
 
 I believe almost all the other languages will just throw errors when using brackets like that.
 
-- 3: typeof NaN is number, NaN == NaN gives you false
+- 3: `typeof NaN` is number, `NaN == NaN` gives you false and `!!NaN` gives false as well
 
-“Not a Number” is a number, sounds funny, and if to check a value is NaN, built-in function isNaN must be used as == or === always return false. NaN makes Javascript more special.
+“Not a Number” is a number, sounds funny, and if to check a value is NaN, built-in function isNaN must be used, as == or === always return false. By the way, NaN itslef is a Falsy value as well, so `Number(anyValue) || 0` is a concise way to provide a default value(which is 0 in the example), to override left side value of `||` operator, when it's a Falsy value. NaN just makes Javascript more special.
 
 - 4: 1 / 0 gives you Infinity, 0 / 0 gives you NaN
 
