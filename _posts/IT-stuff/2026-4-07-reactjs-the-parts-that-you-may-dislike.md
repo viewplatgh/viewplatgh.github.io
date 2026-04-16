@@ -27,6 +27,13 @@ ReactJS is one of the most popular frontend libraries, but everything has its do
 
   Even a simple backend interaction — fetch and update — is not straightforward. You either need to introduce a library like react-query, or fall back to the classic `useEffect` + `setState` pattern. `useState` and `useEffect` can be easily overused to handle any UI update, and you often end up with a bunch of them piled into a single component body.
 
-- 4: Pitfalls can catch you easily
+- 4: Restrictions and limits
+  - 1. **Rules of hooks**: you cannot call hooks wherever you want, can only call hooks in function components body or custom hooks.
+  - 2. **Unique and stable Keys required for an array of elements**: This is easy to forget when doing day-to-day work and it could be distracting
+  - 3. **Fragments are required to wrap elements**: This is trivial but still some overhead
+  - 4. **Ref is tricky**: This got simpler after `forwardRef` was deprecated in React 19, but ref-related code can still look awkward and be hard to follow
+  - 5. **Controlled or not controlled, that's a question**: If to write a custom "form field" control, deciding whether to support only controlled mode or both can be a struggle
 
-  There are pitfalls that are error prone, especially for engineers new to React. Infinite re-rendering caused by updating state in the wrong spot, or by a dependency loop. Too many state updates causing performance issues. Hydration errors that happen all the time when working with NextJS. The list goes on.
+- 5: Pitfalls can catch you easily
+
+  There are pitfalls that are error-prone, especially for engineers new to React. Infinite re-rendering caused by updating state in the wrong spot, or by a dependency loop. State duplication, often due to `useState` overuse. Too many state updates causing performance issues, often due to `useEffect` overuse. Frequent hydration errors when working with NextJS. The list goes on.
