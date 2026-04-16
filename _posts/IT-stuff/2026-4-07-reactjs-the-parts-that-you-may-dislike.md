@@ -28,11 +28,11 @@ ReactJS is one of the most popular frontend libraries, but everything has its do
   Even a simple backend interaction — fetch and update — is not straightforward. You either need to introduce a library like react-query, or fall back to the classic `useEffect` + `setState` pattern. `useState` and `useEffect` can be easily overused to handle any UI update, and you often end up with a bunch of them piled into a single component body.
 
 - 4: Restrictions and limits
-  - 1. **Rules of hooks**: you cannot call hooks wherever you want, can only call hooks in function components body or custom hooks.
-  - 2. **Unique and stable Keys required for an array of elements**: This is easy to forget when doing day-to-day work and it could be distracting
-  - 3. **Fragments are required to wrap elements**: This is trivial but still some overhead
-  - 4. **Ref is tricky**: This got simpler after `forwardRef` was deprecated in React 19, but ref-related code can still look awkward and be hard to follow
-  - 5. **Controlled or not controlled, that's a question**: If to write a custom "form field" control, deciding whether to support only controlled mode or both can be a struggle
+  - **Rules of hooks**: you cannot call hooks wherever you want, can only call hooks in function components body or custom hooks.
+  - **Unique and stable Keys required for an array of elements**: This is easy to forget when doing day-to-day work and it could be distracting
+  - **Fragments are required to wrap elements**: This is trivial but still some overhead
+  - **Ref is tricky**: This got simpler after `forwardRef` was deprecated in React 19, but ref-related code can still look awkward and be hard to follow
+  - **Controlled or not controlled, that's a question**: If to write a custom "form field" control, deciding whether to support only controlled mode or both can be a struggle
 
 - 5: Pitfalls can catch you easily
 
