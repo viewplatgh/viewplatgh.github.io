@@ -16,7 +16,6 @@ Javascript objects can be used as Map straight away. We can assign as many as ke
 type MyMap = {
   [key: string]: any
 }
-const
 ```
 
 This is to define a Map type using string value as keys, and values can be any type
